@@ -3,7 +3,7 @@ import pickle
 import streamlit as st
 
 #Loading the model
-model=pickle.load(open(r"C:\Users\CORONA\Documents\GMC Dataset\logistic_model_1.pkl", "rb"))
+model=pickle.load(open("logistic_model_1.pkl", "rb"))
 
 def performance_prediction(user_input):
     #convert data into array
