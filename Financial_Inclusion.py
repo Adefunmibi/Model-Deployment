@@ -3,7 +3,7 @@ import streamlit as st
 import pickle
 
 #Import model
-model=pickle.load(open(r"C:\Users\CORONA\Desktop\Deployment\Financial_Inclusion.pkl","rb"))
+model=pickle.load(open("Financial_Inclusion.pkl","rb"))
 
 country_mapping = {
     'Kenya': 0, 
